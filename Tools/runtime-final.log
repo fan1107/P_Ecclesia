@@ -1,0 +1,613 @@
+VBCSCompilerServerWatchdog: watching VBCSCompiler (PID 51444)
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/respin/6000.3.28f1-21f78c3e21d1' branch; Version is '6000.3.28f1 (8f082d2fe476) revision 9373741'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fan" at "2026-11-04T08:07:30.4136783Z"
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32406 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-04T08:07:30Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Unity.exe
+-batchmode
+-buildTarget
+Android
+-force-d3d11
+-projectPath
+C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject
+-executeMethod
+Ecclesia.EditorTools.RuntimeValidation.Run
+-logFile
+C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\runtime-final.log
+Successfully changed project path to: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject
+C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7504, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.19.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-fan"
+[Licensing::IpcConnector] LicenseClient-fan channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fan-1.19.0" at "2026-11-04T08:07:31.7172121Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 40564, path: "C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.19.0+4cc3dda
+  Session Id:              1ee046f65eef4400b58a575ec137b34b
+  Correlation Id:          07331ddb64f1749f016de4449f8a2c1d
+  External correlation Id: 4414122966610775480
+  Machine Id:              dz4tcZeJsLDX7a31OFjYj+XilyE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-fan-1.19.0" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fan-1.19.0-notifications" at "2026-11-04T08:07:31.7596009Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1483176-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 1.35s
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [3896]  Target information:
+
+Player connection [3896]  * "[IP] 192.168.45.80 [Port] 55505 [Flags] 2 [Guid] 164146633 [EditorId] 164146633 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OTGC2RD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3896] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3896] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-10936" after 0.0 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+Targeting platform: Android
+Refreshing native plugins compatible for Editor in 104.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.28f1 (8f082d2fe476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject/Assets
+Forcing GfxDevice: Direct3D 11
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11999 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004775 seconds.
+- Loaded All Assemblies, in  0.402 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.346 seconds
+Domain Reload Profiling: 746ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (119ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (152ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (347ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (82ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@13.0.6 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.animation@cd6c3841e39a)
+    com.unity.2d.aseprite@3.0.2 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.aseprite@20edb5643ab5)
+    com.unity.2d.psdimporter@12.0.2 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.psdimporter@f207d91d598d)
+    com.unity.2d.spriteshape@13.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.spriteshape@0738bab11647)
+    com.unity.2d.tilemap.extras@6.0.3 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.tilemap.extras@58739e072909)
+    com.unity.2d.tooling@1.0.4 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.tooling@04422e023209)
+    com.unity.collab-proxy@2.14.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.collab-proxy@ac5a9def1e96)
+    com.unity.ide.rider@3.1.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.ide.rider@570989d4a882)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.1 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.inputsystem@2436e68c60c4)
+    com.unity.timeline@1.8.13 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.timeline@3a22918286f5)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.2d.common@12.0.4 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.common@3e42aeccb30d)
+    com.unity.mathematics@1.3.3 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.collections@2.7.1 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.collections@88d5bf65ce66)
+    com.unity.searcher@4.9.5 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.31 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.burst@bfa84123c21a)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.sprite@5b922524bd83)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.tilemap@4d671073d7ba)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a)
+    com.unity.render-pipelines.universal@17.3.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.render-pipelines.universal@029be7ffa662)
+    com.unity.test-framework@1.6.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.test-framework@bd7f943e9647)
+    com.unity.ugui@2.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.ugui@44a561608371)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.3.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.render-pipelines.core@3424017a4ec3)
+    com.unity.shadergraph@17.3.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.shadergraph@d526115bb944)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 4s340ms
+[ 445/1080  0s] WriteResponseFile Library/Bee/artifacts/rsp/4747638433968585886.rsp
+[ 837/1080  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1072/1080  2s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\Ecclesia\Runtime\AuthenticationService.cs(19,20): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+[1073/1080  0s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[1074/1080  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll, with 147 defines and 369 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1075/1080  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 149 defines and 336 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1076/1080  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1077/1080  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1078/1080  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[1079/1080  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (4.30 seconds), 10 items updated, 1080 evaluated
+Assets\Ecclesia\Runtime\AuthenticationService.cs(19,20): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+AssetDatabase: script compilation time: 4.820073s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.498 seconds
+Refreshing native plugins compatible for Editor in 9.52 ms, found 7 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.31 ms, found 7 plugins.
+Could not locate google-services.json or GoogleService-Info.plist files.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:UpdateJson (bool,Firebase.Editor.GenerateXmlFromGoogleServicesJson/LogMessage,Firebase.Editor.GenerateXmlFromGoogleServicesJson/LogMessage) (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:224)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:UpdateJsonWithBundleIdChooserDialog (string,bool) (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:481)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:CheckConfiguration () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:254)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson/<>c:<.cctor>b__15_1 () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:103)
+Google.EditorInitializer/<>c__DisplayClass0_0:<InitializeOnMainThread>b__0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/EditorInitializer.cs:60)
+Google.RunOnMainThread:ExecutePollingJobs () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:409)
+Google.RunOnMainThread/<>c:<ExecuteAllUnnested>b__28_0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:541)
+Google.RunOnMainThread:RunAction (System.Action) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:343)
+Google.RunOnMainThread:ExecuteAllUnnested (bool) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:530)
+Google.RunOnMainThread/<>c:<PollOnUpdateUntilComplete>b__20_0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:365)
+Google.RunOnMainThread:RunAction (System.Action) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:343)
+Google.RunOnMainThread:PollOnUpdateUntilComplete (System.Func`1<bool>,bool) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:363)
+Google.EditorInitializer:InitializeOnMainThread (System.Func`1<bool>,System.Func`1<bool>,string,Google.Logger) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/EditorInitializer.cs:48)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:.cctor () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:98)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs Line: 224)
+
+Project Bundle ID com.ecclesia.prayer does not match any bundle IDs in your google-services.json files.
+This will result in an app that will fail to initialize.
+
+Available Bundle IDs:
+
+
+You need to either:
+* Fix your app's bundle ID under "Player Settings --> Bundle Identifier"
+or:
+* Add another app to your firebase project
+  Goto https://firebase.google.com/docs/unity/setup#add_firebase_to_your_app_1
+  and add the new configuration file to your project.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:LogErrorIfEnabled (string) (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:142)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:UpdateJson (bool,Firebase.Editor.GenerateXmlFromGoogleServicesJson/LogMessage,Firebase.Editor.GenerateXmlFromGoogleServicesJson/LogMessage) (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:230)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:UpdateJsonWithBundleIdChooserDialog (string,bool) (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:481)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:CheckConfiguration () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:254)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson/<>c:<.cctor>b__15_1 () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:103)
+Google.EditorInitializer/<>c__DisplayClass0_0:<InitializeOnMainThread>b__0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/EditorInitializer.cs:60)
+Google.RunOnMainThread:ExecutePollingJobs () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:409)
+Google.RunOnMainThread/<>c:<ExecuteAllUnnested>b__28_0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:541)
+Google.RunOnMainThread:RunAction (System.Action) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:343)
+Google.RunOnMainThread:ExecuteAllUnnested (bool) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:530)
+Google.RunOnMainThread/<>c:<PollOnUpdateUntilComplete>b__20_0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:365)
+Google.RunOnMainThread:RunAction (System.Action) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:343)
+Google.RunOnMainThread:PollOnUpdateUntilComplete (System.Func`1<bool>,bool) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:363)
+Google.EditorInitializer:InitializeOnMainThread (System.Func`1<bool>,System.Func`1<bool>,string,Google.Logger) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/EditorInitializer.cs:48)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:.cctor () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:98)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs Line: 142)
+
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.399 seconds
+Domain Reload Profiling: 8891ms
+	BeginReloadAssembly (314ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (146ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (5115ms)
+		LoadAssemblies (5011ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (136ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (3400ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3043ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (2505ms)
+			ProcessInitializeOnLoadMethodAttributes (387ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadDataL2.compute using Guid(6196f34ed825db14b81fb3eb0ea8d931) (ComputeShaderImporter)Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+ -> (artifact id: 'bc81e12cd8027667251b3f1794eaa7f3') in 0.222 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/Defrag.compute using Guid(a183a2d0b1da4904fb3bd71c6111ebb1) (ComputeShaderImporter) -> (artifact id: '253cac33348d1a55fd8925e21e45cbfc') in 0.0491912 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/scatter.compute using Guid(a2eaeefdac4637a44b734e85b7be9186) (ComputeShaderImporter) -> (artifact id: '3f1adaf9c35837195a3bfcc9377d8c0f') in 0.0115525 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/OcclusionCullingDebug.compute using Guid(b23e766bcf50ca4438ef186b174557df) (ComputeShaderImporter) -> (artifact id: '7769ebfe0ebd929ea7cdcc37da91731c') in 0.0861891 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/TemporalFiltering.compute using Guid(c23523f04780d754f927b9daf4f975b9) (ComputeShaderImporter) -> (artifact id: '13b6a1dc1abcfae631b0625884e1d860') in 0.0118659 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/FlatNormalResolution.compute using Guid(134e9451a58aaba43ba713adbd103d92) (ComputeShaderImporter) -> (artifact id: 'bc56496647b23ac1372a1cb71ebad237') in 0.1130223 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/STP/StpSetup.compute using Guid(33be2e9a5506b2843bdb2bdff9cad5e1) (ComputeShaderImporter) -> (artifact id: '1eb0f15c0cc7bbcf4101c922b8276352') in 0.039745 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Debug/ProbeVolumeSamplingDebugPositionNormal.compute using Guid(53626a513ea68ce47b59dc1299fe3959) (ComputeShaderImporter) -> (artifact id: '83a76f0f299f8d388145c02a65282ec6') in 0.0457528 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceDataBufferUploadKernels.compute using Guid(53864816eb00f2343b60e1a2c5a262ef) (ComputeShaderImporter) -> (artifact id: 'b0c74b4734d62f233d5f69522707cb30') in 0.0133821 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/SpatialFiltering.compute using Guid(63e59de460463bb4c9d64bc58051d12c) (ComputeShaderImporter) -> (artifact id: '22db46e826fddda6f01a054e2c12882f') in 0.0439731 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeBlendStates.compute using Guid(a3f7b8c99de28a94684cb1daebeccf5d) (ComputeShaderImporter) -> (artifact id: '90e56792a1b6dc47c6b05994abfb8e9a') in 0.0181441 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/RestirEstimation.compute using Guid(b5dbdcea251f42c4a9b8721877f436bf) (ComputeShaderImporter) -> (artifact id: 'db3558343022c1d71d7eb8c894a883fe') in 0.0772453 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/restructure_bvh.compute using Guid(56641cb88dcb31a4398a4997ef7a7a8c) (ComputeShaderImporter) -> (artifact id: '731cc2cc81da91a5baabbd16fa9e79b4') in 0.0377592 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/CopyDepthToBuffer.compute using Guid(6666e5f03ff07054dbb7a7ac6e6aaee0) (ComputeShaderImporter) -> (artifact id: '9c2b3c5c10d3988aeab9daf66cbfb55c') in 0.0132654 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/bit_histogram.compute using Guid(8670f7ce4b60cef43bed36148aa1b0a2) (ComputeShaderImporter) -> (artifact id: '03bfc6c7a096d640e1366177b840336a') in 0.0115431 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/STP/StpPreTaa.compute using Guid(a679dba8ec4d9ce45884a270b0e22dda) (ComputeShaderImporter) -> (artifact id: 'ffeaa045590fa560cc9418e6c331f08d') in 0.0147488 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceOcclusionCullingKernels.compute using Guid(f6d223acabc2f974795a5a7864b50e6c) (ComputeShaderImporter) -> (artifact id: '9c6c2a7828cb9d2303c591303e43cf4a') in 0.0366918 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/Scrolling.compute using Guid(47bbc3edf61978b498603cc2a1b87eea) (ComputeShaderImporter) -> (artifact id: 'ae99de79b695be26855b65eeb872940d') in 0.0129409 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute using Guid(77f6c3e00d2daf84ba7b57e205d5dd64) (ComputeShaderImporter) -> (artifact id: 'a40d2f7ba703aa8ad1ac3ee3d44b1971') in 0.0168687 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/OccluderDepthPyramidKernels.compute using Guid(08b2b5fb307b0d249860612774a987da) (ComputeShaderImporter) -> (artifact id: '59dfffd9e194fb602714d885c9c05ec6') in 0.0189966 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/GeometryPool/GeometryPoolKernels.compute using Guid(98e3d58cae7210c4786f67f504c9e899) (ComputeShaderImporter) -> (artifact id: '3b397a40532a1c059f060c09037ab5da') in 0.0713247 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadData.compute using Guid(0951de5992461754fa73650732c4954c) (ComputeShaderImporter) -> (artifact id: 'd77e23620370a9bc2fbe3555a7bd7e69') in 0.0146888 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/STP/StpTaa.compute using Guid(3923900e2b41b5e47bc25bfdcbcdc9e6) (ComputeShaderImporter) -> (artifact id: '8c230e2c2ac5dbead7e67ed57ef95dcc') in 0.0142663 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/Eviction.compute using Guid(c9f2aeed6ef396f4d9134e4da1edfe19) (ComputeShaderImporter) -> (artifact id: '3b30f7bd99df2c825a20bfe9245ea18b') in 0.0086869 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceDataBufferCopyKernels.compute using Guid(f984aeb540ded8b4fbb8a2047ab5b2e2) (ComputeShaderImporter) -> (artifact id: '7d873fe597b0d44fa84cd81761b32be9') in 0.0111185 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/CopyPositions.compute using Guid(1ad53a96b58d3c3488dde4f14db1aaeb) (ComputeShaderImporter) -> (artifact id: '5be3bb02da8ff71278009f64bd0f888c') in 0.0110078 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceTransformUpdateKernels.compute using Guid(2a567b9b2733f8d47a700c3c85bed75b) (ComputeShaderImporter) -> (artifact id: '8825d43d7db78331ce9197ef7f18b532') in 0.0188137 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Vrs/Shaders/VrsTexture.compute using Guid(cacb30de6c40c7444bbc78cb0a81fd2a) (ComputeShaderImporter) -> (artifact id: '4a2dcb80b89702b435f53694253a92f2') in 0.0170438 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/Utilities/CopyBuffer.compute using Guid(1b95b5dcf48d1914c9e1e7405c7660e3) (ComputeShaderImporter) -> (artifact id: '592b935d9e88fdf539fcf25b57b5d5ea') in 0.0199416 seconds
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/ProbeVolumeCellDilation.compute using Guid(6bb382f7de370af41b775f54182e491d) (ComputeShaderImporter) -> (artifact id: 'dcb2333b1b8e07387dbcd950bcef0d2e') in 0.0269559 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/BufferCopyTest.compute using Guid(8ba6ac699baf35242857feaf27c9cc2a) (ComputeShaderImporter) -> (artifact id: '588ec217e4c642747f24faf833112447') in 0.0113041 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/RestirSpatial.compute using Guid(8bf708594b6a9224b9a0915f3db08c5d) (ComputeShaderImporter) -> (artifact id: 'ab2d080756796cb37771199dd212a367') in 0.0129227 seconds
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/ProbeVolumeSubdivide.compute using Guid(bb86f1f0af829fd45b2ebddda1245c22) (ComputeShaderImporter) -> (artifact id: 'c6b969d00967266fe3994bcad4c14d16') in 0.0182144 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/ScreenResolveUpsampling.compute using Guid(7c302ee1d7410a6458981a5f329520b4) (ComputeShaderImporter) -> (artifact id: '803c138fb7baa9f21e5ba2d73f16b0fc') in 0.0543026 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute using Guid(7cce01e3b2c07a34b8a6cfa8dcd99d0b) (ComputeShaderImporter) -> (artifact id: '48eb7ebdc54fa96e2c856069a18cd831') in 0.0213993 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/build_hlbvh.compute using Guid(2d70cd6be91bd7843a39a54b51c15b13) (ComputeShaderImporter) -> (artifact id: '6648b226d73013e40bd9e0e2742ff7b3') in 0.0135265 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/PatchAllocation.compute using Guid(3d9fc4c0ae8e22f49a8ebefad82718d9) (ComputeShaderImporter) -> (artifact id: '032873a4a8fb3925e404db9a96e70b65') in 0.0182058 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/Debug.compute using Guid(4d40202dfa5473d44bcdc97e00d74703) (ComputeShaderImporter) -> (artifact id: '240849082b1bb2df5df9f387a8576518') in 0.0173751 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/ScreenResolveLookup.compute using Guid(4d271c06564c6784392d81f949558e5c) (ComputeShaderImporter) -> (artifact id: 'a5c19bb6b18e467f64f4ea1f62f39488') in 0.0332331 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/block_scan.compute using Guid(4d6d5de35fa45ef4a92119397a045cc9) (ComputeShaderImporter) -> (artifact id: '071c87929f8011fdac543c6d2d2b720e') in 0.0119653 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceWindDataUpdateKernels.compute using Guid(fde76746e4fd0ed418c224f6b4084114) (ComputeShaderImporter) -> (artifact id: 'b44bce543ef05644eac8ba67903db231') in 0.0200503 seconds
+Start importing Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/block_reduce_part.compute using Guid(4e034cc8ea2635c4e9f063e5ddc7ea7a) (ComputeShaderImporter) -> (artifact id: '8b363d80d4f79b2c522242420f3ac594') in 0.0142384 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRays.urtshader using Guid(1142bbad8b9e8c44c83a9775ff120d37) (ScriptedImporter) -> (artifact id: 'cece6136c43e75d5f752c55120ba78eb') in 0.0734837 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/RisEstimation.urtshader using Guid(713f6141bd66a134383b787f2eaa7c11) (ScriptedImporter) -> (artifact id: 'd168bead422bf1c1bc458d91d78d79cb') in 0.0570108 seconds
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/RenderingLayerMask/TraceRenderingLayerMask.urtshader using Guid(94a070d33e408384bafc1dea4a565df9) (ScriptedImporter) -> (artifact id: '61f853a66a00f03c062f2c08697cc907') in 0.0432703 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/UniformEstimation.urtshader using Guid(94a39d12848d8d64ca962a72b74e7c50) (ScriptedImporter) -> (artifact id: '0f287c20caa2bc5f8b472286f99379dc') in 0.0472339 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceTransparentRays.urtshader using Guid(6513c3b892e933c4f8d00c19d5c47532) (ScriptedImporter) -> (artifact id: '9274afaafa4ef89fef3bae39ead75011') in 0.014898 seconds
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshader using Guid(5a2a534753fbdb44e96c3c78b5a6999d) (ScriptedImporter) -> (artifact id: '7eb5ca254e678aabb42807e7e51dd29c') in 0.018261 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRaysAndFetchAttributes.urtshader using Guid(fbc59f55df2416344b008dc23753cae2) (ScriptedImporter) -> (artifact id: '7427ebc8d2d1a62093c57a25aaf685e6') in 0.0154387 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/RestirCandidateTemporal.urtshader using Guid(ad3a9f9982f8c4f4a839a78955e78458) (ScriptedImporter) -> (artifact id: '320387649e9e4c05c4ef3d79398d26f0') in 0.0334796 seconds
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader using Guid(ff2cbab5da58bf04d82c5f34037ed123) (ScriptedImporter) -> (artifact id: '7f8eb6fadc00a71b79fb6d77c2b4fafe') in 0.0253603 seconds
+Refreshing native plugins compatible for Editor in 68.16 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=aae30abeea83c334590d8a85fabbb1b0): Total: 20.055 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=51 (actual=51, local cache=0, cache server=0)
+		Asset DB Process Time: managed=11 ms, native=8955 ms
+		Asset DB Callback time: managed=204 ms, native=513 ms
+		Scripting: domain reloads=1, domain reload time=5498 ms, compile time=4821 ms, other=50 ms
+		Project Asset Count: scripts=1621, non-scripts=3284
+		Asset File Changes: new=0, changed=5, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 104.858ms
+	ApplyChangesToAssetFolders: 0.829ms
+	Scan: 1012.969ms
+	OnSourceAssetsModified: 0.737ms
+	CategorizeAssetsWithTransientArtifact: 2171.726ms
+	ProcessAssetsWithTransientArtifactChanges: 66.049ms
+	CategorizeAssets: 39.739ms
+	ImportOutOfDateAssets: 5224.955ms (-1495.053ms without children)
+		ImportManagerImport: 1800.311ms (98.309ms without children)
+			ImportInProcess: 1700.790ms
+			UpdateCategorizedAssets: 1.211ms
+		CompileScripts: 4821.259ms
+		ReloadNativeAssets: 0.022ms
+		UnloadImportedAssets: 1.905ms
+		ReloadImportedAssets: 95.389ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.487ms
+		InitializingProgressBar: 0.005ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.628ms
+	PostProcessAllAssets: 545.281ms
+	Hotreload: 69.883ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 2.203ms
+	PersistCurrentRevisions: 0.483ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 2.049ms
+	Untracked: 10815.650ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 753.790ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-에끌레시아
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7586 unused Assets / (7.4 MB). Loaded Objects now: 8283.
+Memory consumption went from 235.3 MB to 227.9 MB.
+Total: 8.643200 ms (FindLiveObjects: 0.492100 ms CreateObjectMapping: 0.294400 ms MarkObjects: 4.973500 ms  DeleteObjects: 2.882400 ms)
+
+ECCLESIA: Firebase console configuration pending; offline mode is available.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Ecclesia.EditorTools.ProjectSetup:ConfigureFirebase () (at Assets/Ecclesia/Editor/ProjectSetup.cs:56)
+Ecclesia.EditorTools.ProjectSetup:Prepare () (at Assets/Ecclesia/Editor/ProjectSetup.cs:43)
+Ecclesia.EditorTools.ProjectSetup:Validate () (at Assets/Ecclesia/Editor/ProjectSetup.cs:80)
+Ecclesia.EditorTools.RuntimeValidation:Run () (at Assets/Ecclesia/Editor/RuntimeValidation.cs:18)
+
+(Filename: Assets/Ecclesia/Editor/ProjectSetup.cs Line: 56)
+
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) (LibraryAssetImporter) -> (artifact id: '28ca0030843125935b505d9a2f09a08e') in 0.0033754 seconds
+Refreshing native plugins compatible for Editor in 7.31 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=9cad0606d0d088b4f89920023b23c7e3): Total: 0.268 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+ECCLESIA: Android settings and scene prepared.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Ecclesia.EditorTools.ProjectSetup:Prepare () (at Assets/Ecclesia/Editor/ProjectSetup.cs:44)
+Ecclesia.EditorTools.ProjectSetup:Validate () (at Assets/Ecclesia/Editor/ProjectSetup.cs:80)
+Ecclesia.EditorTools.RuntimeValidation:Run () (at Assets/Ecclesia/Editor/RuntimeValidation.cs:18)
+
+(Filename: Assets/Ecclesia/Editor/ProjectSetup.cs Line: 44)
+
+ECCLESIA_VALIDATION_PASS
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Ecclesia.EditorTools.ProjectSetup:Validate () (at Assets/Ecclesia/Editor/ProjectSetup.cs:96)
+Ecclesia.EditorTools.RuntimeValidation:Run () (at Assets/Ecclesia/Editor/RuntimeValidation.cs:18)
+
+(Filename: Assets/Ecclesia/Editor/ProjectSetup.cs Line: 96)
+
+Opening scene 'Assets/Ecclesia/Scenes/Ecclesia.unity'
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Ecclesia/Scenes/Ecclesia.unity'
+	Deserialize:            1.045 ms
+	Integration:            217.238 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   218.290 ms
+Unloading 94 unused Assets / (26.8 KB). Loaded Objects now: 8286.
+Memory consumption went from 210.0 MB to 209.9 MB.
+Total: 5.669500 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.136000 ms MarkObjects: 5.116700 ms  DeleteObjects: 0.074100 ms)
+
+[Project] Loading completed in 50.830 seconds
+	Project init time: 				33.673 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.001 seconds
+		Asset Database init time: 		3.049 seconds
+		Global illumination init time: 	0.052 seconds
+		Assemblies load time: 			0.774 seconds
+		Unity extensions init time: 	0.008 seconds
+		Asset Database refresh time: 	20.055 seconds
+	Scene opening time: 			14.999 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793779699719,"processId":10936,"projectLoad":50.8303374,"projectInit":33.6731047,"templateInit":0.0,"packageManagerInit":0.0013271,"assetDatabaseInit":3.0486551,"globalIlluminationInit":0.0518967,"assembliesLoad":0.7735319,"unityExtensionsInit":0.0082543,"assetDatabaseRefresh":20.0554869,"sceneOpening":14.9987701}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793779699719,"processId":10936,"editorVersion":"6000.3.28f1 (8f082d2fe476)","branch":"6000.3/respin/6000.3.28f1-21f78c3e21d1","buildType":"Release","platform":"Windows"}
+SpriteAtlasPacking completed in 0.002946 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.337 ms
+	Integration:            434.668 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   435.012 ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <b2ed3aa968d84284a17b07ec9195055c>:0 
+  at UnityEditor.Search.SearchDatabase+<EnumerateAll>d__83.MoveNext () [0x00106] in <458832ba6c564b1a9019773a983b57af>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Boolean& found) [0x00045] in <81c5c8bf15b24e768953dea9073a410f>:0 
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00000] in <81c5c8bf15b24e768953dea9073a410f>:0 
+  at UnityEditor.Search.SearchDatabase.GetDefaultSearchDatabase () [0x00006] in <458832ba6c564b1a9019773a983b57af>:0 
+  at UnityEditor.Search.SearchInit.IndexationOnStartup () [0x0000c] in <458832ba6c564b1a9019773a983b57af>:0 
+  at UnityEditor.EditorApplication.Internal_CallDelayFunctions () [0x0002c] in <c11b84dc4d8b474bb659a85e84285eaa>:0 
+
+Created GICache directory at C:/Users/fan/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.095s, timestamps: [51.329 - 51.424]
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+ECCLESIA_RUNTIME_PASS
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Ecclesia.EditorTools.RuntimeValidation:Tick () (at Assets/Ecclesia/Editor/RuntimeValidation.cs:56)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Ecclesia/Editor/RuntimeValidation.cs Line: 56)
+
+Killing ADB server in 3.2493856 seconds.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-fan-1.19.0-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-fan-1.19.0 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793779716408,"processId":10936,"allocatedMemory":20237405,"memoryLabels":[{"Default":29313},{"Permanent":15236},{"NewDelete":68339},{"Thread":4230344},{"Manager":825597},{"VertexData":296},{"Geometry":816},{"Texture":296},{"Shader":95797},{"Material":24},{"GfxDevice":56096},{"Animation":392},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":424},{"Input":14984},{"JobScheduler":33024},{"TextLib":280},{"Mono":32},{"MonoCode":64},{"ScriptingNativeRuntime":155060},{"BaseObject":1631936},{"Resource":1336},{"Renderer":3000},{"Transform":4685},{"File":45035},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":27200},{"DynamicArray":113325},{"HashMap":79537},{"Utility":2662454},{"Curl":2559},{"PoolAlloc":2248},{"AI":80},{"TypeTree":16093},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7792},{"Director":8240},{"CloudService":11224},{"WebRequest":14629},{"VR":48034},{"SceneManager":504},{"Video":208},{"LazyScriptCache":32},{"Camera":17},{"Secure":2377},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":992},{"Hierarchy":608},{"CoreStats":13112},{"Identifiers":6480},{"Gui":96},{"EditorUtility":4581145},{"VersionControl":4},{"Undo":947},{"AssetDatabase":4999698},{"EditorGi":328},{"UnityConnect":29232},{"Upm":1896},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":270},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3494},{"Licensing":12986},{"AssetReference":32},{"IPCStream":32}]}

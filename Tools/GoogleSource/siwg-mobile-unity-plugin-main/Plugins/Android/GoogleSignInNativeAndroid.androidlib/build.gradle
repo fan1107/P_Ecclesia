@@ -1,0 +1,41 @@
+// Copyright 2026 Google LLC
+
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+
+//     https://www.apache.org/licenses/LICENSE-2.0
+
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+apply plugin: 'com.android.library'
+kotlin {
+    compilerOptions {
+        freeCompilerArgs.add("-Xskip-metadata-version-check")
+    }
+}
+android {
+    namespace 'com.google.mobilesiwgunity'
+    compileSdk getProperty("unity.compileSdkVersion") as int
+    buildToolsVersion getProperty("unity.buildToolsVersion")
+    defaultConfig {
+        minSdk 23                                   // never above the host's own minSdk
+        consumerProguardFiles 'consumer-rules.pro'  // keep rules travel with the module
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.valueOf(getProperty("unity.javaCompatabilityVersion"))
+        targetCompatibility JavaVersion.valueOf(getProperty("unity.javaCompatabilityVersion"))
+    }
+}
+dependencies {
+    // Unity engine classes (UnityPlayer) — provided by unityLibrary at runtime.
+    compileOnly fileTree(dir: '../libs', include: ['*.jar'])
+    // Compile-time only: the app gets these from GoogleSignInNativeDependencies.xml via EDM4U.
+    // These are MINIMUM versions; consumers may resolve higher.
+    compileOnly 'androidx.credentials:credentials:1.3.0'
+    compileOnly 'com.google.android.libraries.identity.googleid:googleid:1.2.1'
+}

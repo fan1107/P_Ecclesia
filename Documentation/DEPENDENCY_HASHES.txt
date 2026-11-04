@@ -1,0 +1,7 @@
+
+Path : C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\firebase_unity_sdk_14.1.0.zip
+Hash : 51C0C42CE4C1FE2E9D2DE92B84AFEAB91694B63FAF699530B0C2EF97085D8799
+
+Path : C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\google-signin.zip
+Hash : 52F7C9FCEB08276289099BA6CE2933D0BF6F6AE178FFEA91F6560138A04C0BB7
+

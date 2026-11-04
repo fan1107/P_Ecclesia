@@ -1,0 +1,28 @@
+{
+  "name": "com.google.mobilesiwgunity",
+  "version": "1.0.0",
+  "displayName": "Native Google Sign-In",
+  "description": "An Android (Credential Manager) and iOS (GoogleSignIn SDK) bridge for retrieving Google ID Tokens for backend authentication in Unity 6.5+.",
+  "unity": "6000.0",
+  "keywords": [
+    "google",
+    "signin",
+    "android",
+    "ios",
+    "native",
+    "auth"
+  ],
+  "author": {
+    "name": "Ben Nooner",
+    "email": "bdnooner@google.com",
+    "url": "https://github.com/bdnooner"
+  },
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Basic Sign-In Sample",
+      "description": "A simple scene demonstrating native sign-in.",
+      "path": "Samples~"
+    }
+  ]
+}

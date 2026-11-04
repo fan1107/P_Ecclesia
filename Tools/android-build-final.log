@@ -1,0 +1,1051 @@
+VBCSCompilerServerWatchdog: watching VBCSCompiler (PID 40388)
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/respin/6000.3.28f1-21f78c3e21d1' branch; Version is '6000.3.28f1 (8f082d2fe476) revision 9373741'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fan" at "2026-11-04T08:09:04.4611991Z"
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32406 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-04T08:09:04Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7504, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.19.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-fan"
+[Licensing::IpcConnector] LicenseClient-fan channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fan-1.19.0" at "2026-11-04T08:09:04.5131174Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 40564, path: "C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.19.0+4cc3dda
+  Session Id:              5b032da40df545789479ac533b302a73
+  Correlation Id:          07331ddb64f1749f016de4449f8a2c1d
+  External correlation Id: 3967717801095786628
+  Machine Id:              dz4tcZeJsLDX7a31OFjYj+XilyE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-fan-1.19.0" (connect: 0.00s, validation: 0.01s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fan-1.19.0-notifications" at "2026-11-04T08:09:04.5415581Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1483176-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.08s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Unity.exe
+-batchmode
+-nographics
+-buildTarget
+Android
+-projectPath
+C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject
+-executeMethod
+Ecclesia.EditorTools.ProjectSetup.BuildAndroid
+-quit
+-logFile
+C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\android-build-final.log
+Successfully changed project path to: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject
+C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [58664]  Target information:
+
+Player connection [58664]  * "[IP] 192.168.45.80 [Port] 55505 [Flags] 2 [Guid] 3542366685 [EditorId] 3542366685 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OTGC2RD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [58664] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [58664] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-56736" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+Targeting platform: Android
+Refreshing native plugins compatible for Editor in 8.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.28f1 (8f082d2fe476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004706 seconds.
+- Loaded All Assemblies, in  0.365 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.276 seconds
+Domain Reload Profiling: 638ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (110ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (146ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (276ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@13.0.6 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.animation@cd6c3841e39a)
+    com.unity.2d.aseprite@3.0.2 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.aseprite@20edb5643ab5)
+    com.unity.2d.psdimporter@12.0.2 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.psdimporter@f207d91d598d)
+    com.unity.2d.spriteshape@13.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.spriteshape@0738bab11647)
+    com.unity.2d.tilemap.extras@6.0.3 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.tilemap.extras@58739e072909)
+    com.unity.2d.tooling@1.0.4 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.tooling@04422e023209)
+    com.unity.collab-proxy@2.14.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.collab-proxy@ac5a9def1e96)
+    com.unity.ide.rider@3.1.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.ide.rider@570989d4a882)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.1 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.inputsystem@2436e68c60c4)
+    com.unity.timeline@1.8.13 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.timeline@3a22918286f5)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.2d.common@12.0.4 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.common@3e42aeccb30d)
+    com.unity.mathematics@1.3.3 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.collections@2.7.1 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.collections@88d5bf65ce66)
+    com.unity.searcher@4.9.5 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.31 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.burst@bfa84123c21a)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.sprite@5b922524bd83)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.2d.tilemap@4d671073d7ba)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a)
+    com.unity.render-pipelines.universal@17.3.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.render-pipelines.universal@029be7ffa662)
+    com.unity.test-framework@1.6.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.test-framework@bd7f943e9647)
+    com.unity.ugui@2.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.ugui@44a561608371)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.3.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.render-pipelines.core@3424017a4ec3)
+    com.unity.shadergraph@17.3.0 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.shadergraph@d526115bb944)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s427ms
+[ 839/1080  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.39 seconds), 1 items updated, 1080 evaluated
+AssetDatabase: script compilation time: 0.780094s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.907 seconds
+Refreshing native plugins compatible for Editor in 4.16 ms, found 7 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.31 ms, found 7 plugins.
+Could not locate google-services.json or GoogleService-Info.plist files.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:UpdateJson (bool,Firebase.Editor.GenerateXmlFromGoogleServicesJson/LogMessage,Firebase.Editor.GenerateXmlFromGoogleServicesJson/LogMessage) (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:224)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:UpdateJsonWithBundleIdChooserDialog (string,bool) (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:481)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:CheckConfiguration () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:254)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson/<>c:<.cctor>b__15_1 () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:103)
+Google.EditorInitializer/<>c__DisplayClass0_0:<InitializeOnMainThread>b__0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/EditorInitializer.cs:60)
+Google.RunOnMainThread:ExecutePollingJobs () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:409)
+Google.RunOnMainThread/<>c:<ExecuteAllUnnested>b__28_0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:541)
+Google.RunOnMainThread:RunAction (System.Action) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:343)
+Google.RunOnMainThread:ExecuteAllUnnested (bool) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:530)
+Google.RunOnMainThread/<>c:<PollOnUpdateUntilComplete>b__20_0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:365)
+Google.RunOnMainThread:RunAction (System.Action) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:343)
+Google.RunOnMainThread:PollOnUpdateUntilComplete (System.Func`1<bool>,bool) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:363)
+Google.EditorInitializer:InitializeOnMainThread (System.Func`1<bool>,System.Func`1<bool>,string,Google.Logger) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/EditorInitializer.cs:48)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:.cctor () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:98)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs Line: 224)
+
+Project Bundle ID com.ecclesia.prayer does not match any bundle IDs in your google-services.json files.
+This will result in an app that will fail to initialize.
+
+Available Bundle IDs:
+
+
+You need to either:
+* Fix your app's bundle ID under "Player Settings --> Bundle Identifier"
+or:
+* Add another app to your firebase project
+  Goto https://firebase.google.com/docs/unity/setup#add_firebase_to_your_app_1
+  and add the new configuration file to your project.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:LogErrorIfEnabled (string) (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:142)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:UpdateJson (bool,Firebase.Editor.GenerateXmlFromGoogleServicesJson/LogMessage,Firebase.Editor.GenerateXmlFromGoogleServicesJson/LogMessage) (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:230)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:UpdateJsonWithBundleIdChooserDialog (string,bool) (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:481)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:CheckConfiguration () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:254)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson/<>c:<.cctor>b__15_1 () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:103)
+Google.EditorInitializer/<>c__DisplayClass0_0:<InitializeOnMainThread>b__0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/EditorInitializer.cs:60)
+Google.RunOnMainThread:ExecutePollingJobs () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:409)
+Google.RunOnMainThread/<>c:<ExecuteAllUnnested>b__28_0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:541)
+Google.RunOnMainThread:RunAction (System.Action) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:343)
+Google.RunOnMainThread:ExecuteAllUnnested (bool) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:530)
+Google.RunOnMainThread/<>c:<PollOnUpdateUntilComplete>b__20_0 () (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:365)
+Google.RunOnMainThread:RunAction (System.Action) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:343)
+Google.RunOnMainThread:PollOnUpdateUntilComplete (System.Func`1<bool>,bool) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:363)
+Google.EditorInitializer:InitializeOnMainThread (System.Func`1<bool>,System.Func`1<bool>,string,Google.Logger) (at /Users/amaurice/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/EditorInitializer.cs:48)
+Firebase.Editor.GenerateXmlFromGoogleServicesJson:.cctor () (at /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs:98)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/GenerateXmlFromGoogleServicesJson.cs Line: 142)
+
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.741 seconds
+Domain Reload Profiling: 3642ms
+	BeginReloadAssembly (330ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (69ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (147ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (510ms)
+		LoadAssemblies (388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (133ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2741ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2574ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (2315ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRays.urtshader using Guid(1142bbad8b9e8c44c83a9775ff120d37) (ScriptedImporter)Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+ -> (artifact id: 'a935e0b58b0d13b4df40e791381fc341') in 0.0440892 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/RisEstimation.urtshader using Guid(713f6141bd66a134383b787f2eaa7c11) (ScriptedImporter) -> (artifact id: 'a735a847d1e22d5c107b89a2f1bc3f05') in 0.0114377 seconds
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/RenderingLayerMask/TraceRenderingLayerMask.urtshader using Guid(94a070d33e408384bafc1dea4a565df9) (ScriptedImporter) -> (artifact id: 'afdd189111a28c3a7f727b1f85f5411f') in 0.014456 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/UniformEstimation.urtshader using Guid(94a39d12848d8d64ca962a72b74e7c50) (ScriptedImporter) -> (artifact id: '013f49f1b02cea250eb777624daefae8') in 0.0070606 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceTransparentRays.urtshader using Guid(6513c3b892e933c4f8d00c19d5c47532) (ScriptedImporter) -> (artifact id: '8fbb2ef0c9a529fd9d4edaf5f7d6674b') in 0.0049003 seconds
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshader using Guid(5a2a534753fbdb44e96c3c78b5a6999d) (ScriptedImporter) -> (artifact id: '6853ee87340daaea6fabc1f00e72c7c3') in 0.0070337 seconds
+Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRaysAndFetchAttributes.urtshader using Guid(fbc59f55df2416344b008dc23753cae2) (ScriptedImporter) -> (artifact id: '9b0e99da797903afa50630d48ca830f3') in 0.0099569 seconds
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGI/SurfaceCacheCore/RestirCandidateTemporal.urtshader using Guid(ad3a9f9982f8c4f4a839a78955e78458) (ScriptedImporter) -> (artifact id: '3824ea6b6a16f5170a4a901d3a53532b') in 0.007114 seconds
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader using Guid(ff2cbab5da58bf04d82c5f34037ed123) (ScriptedImporter) -> (artifact id: 'a4bea88e65fe9428f83d62d9ac408430') in 0.0141958 seconds
+Refreshing native plugins compatible for Editor in 5.39 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=054f245169972d644a8acbcc06a9d399): Total: 5.525 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=93 (actual=9, local cache=84, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=3459 ms
+		Asset DB Callback time: managed=175 ms, native=132 ms
+		Scripting: domain reloads=1, domain reload time=907 ms, compile time=781 ms, other=65 ms
+		Project Asset Count: scripts=1621, non-scripts=3284
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 20.537ms
+	ApplyChangesToAssetFolders: 0.714ms
+	Scan: 255.377ms
+	OnSourceAssetsModified: 0.002ms
+	CategorizeAssetsWithTransientArtifact: 45.620ms
+	ProcessAssetsWithTransientArtifactChanges: 68.356ms
+	CategorizeAssets: 39.727ms
+	ImportOutOfDateAssets: 2889.604ms (1972.975ms without children)
+		ImportManagerImport: 125.746ms (2.291ms without children)
+			ImportInProcess: 123.085ms
+			UpdateCategorizedAssets: 0.370ms
+		CompileScripts: 781.235ms
+		ReloadNativeAssets: 0.023ms
+		UnloadImportedAssets: 1.721ms
+		ReloadImportedAssets: 6.975ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.506ms
+		InitializingProgressBar: 0.006ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.417ms
+	PostProcessAllAssets: 283.583ms
+	Hotreload: 6.725ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.002ms
+	UnloadStreamsBegin: 1.577ms
+	PersistCurrentRevisions: 0.458ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 1.908ms
+	Untracked: 1913.007ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 7.232ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-에끌레시아
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7544 unused Assets / (6.0 MB). Loaded Objects now: 8283.
+Memory consumption went from 227.0 MB to 221.0 MB.
+Total: 9.228100 ms (FindLiveObjects: 0.450800 ms CreateObjectMapping: 0.294900 ms MarkObjects: 5.517000 ms  DeleteObjects: 2.964700 ms)
+
+ECCLESIA: Firebase console configuration pending; offline mode is available.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Ecclesia.EditorTools.ProjectSetup:ConfigureFirebase () (at Assets/Ecclesia/Editor/ProjectSetup.cs:56)
+Ecclesia.EditorTools.ProjectSetup:Prepare () (at Assets/Ecclesia/Editor/ProjectSetup.cs:43)
+Ecclesia.EditorTools.ProjectSetup:BuildAndroid () (at Assets/Ecclesia/Editor/ProjectSetup.cs:72)
+
+(Filename: Assets/Ecclesia/Editor/ProjectSetup.cs Line: 56)
+
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) (LibraryAssetImporter) -> (artifact id: '28ca0030843125935b505d9a2f09a08e') in 0.0028498 seconds
+Refreshing native plugins compatible for Editor in 4.33 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=078c0667f745fee48ab1c822887ac6ad): Total: 0.181 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+ECCLESIA: Android settings and scene prepared.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Ecclesia.EditorTools.ProjectSetup:Prepare () (at Assets/Ecclesia/Editor/ProjectSetup.cs:44)
+Ecclesia.EditorTools.ProjectSetup:BuildAndroid () (at Assets/Ecclesia/Editor/ProjectSetup.cs:72)
+
+(Filename: Assets/Ecclesia/Editor/ProjectSetup.cs Line: 44)
+
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) (NativeFormatImporter) -> (artifact id: '6f2f7fab91796aea57ab7f2f971c62b6') in 0.0062021 seconds
+Refreshing native plugins compatible for Editor in 4.03 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=01053017f8a3b6a46b7c5f150f5073db): Total: 0.027 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+1 URP assets included in build
+- UniversalRP - Assets/Settings/UniversalRP.asset
+	 - Renderer2D - Assets/Settings/Renderer2D.asset - UnityEngine.Rendering.Universal.Renderer2DData
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.Rendering.Universal.URPPreprocessBuild:LogIncludedAssets (System.Collections.Generic.List`1<UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@029be7ffa662/Editor/BuildProcessors/URPPreprocessBuild.cs:73)
+UnityEditor.Rendering.Universal.URPPreprocessBuild:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.unity.render-pipelines.universal@029be7ffa662/Editor/BuildProcessors/URPPreprocessBuild.cs:32)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Ecclesia.EditorTools.ProjectSetup:BuildAndroid () (at Assets/Ecclesia/Editor/ProjectSetup.cs:74)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@029be7ffa662/Editor/BuildProcessors/URPPreprocessBuild.cs Line: 73)
+
+ECCLESIA: Firebase console configuration pending; offline mode is available.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Ecclesia.EditorTools.ProjectSetup:ConfigureFirebase () (at Assets/Ecclesia/Editor/ProjectSetup.cs:56)
+Ecclesia.EditorTools.FirebaseBuildCheck:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at Assets/Ecclesia/Editor/ProjectSetup.cs:103)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Ecclesia.EditorTools.ProjectSetup:BuildAndroid () (at Assets/Ecclesia/Editor/ProjectSetup.cs:74)
+
+(Filename: Assets/Ecclesia/Editor/ProjectSetup.cs Line: 56)
+
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) (NativeFormatImporter) -> (artifact id: '6f2f7fab91796aea57ab7f2f971c62b6') in 0.0019915 seconds
+Refreshing native plugins compatible for Editor in 4.29 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=cce97ae20829dc943ad69d8df502ddc1): Total: 0.089 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) (LibraryAssetImporter) -> (artifact id: '28ca0030843125935b505d9a2f09a08e') in 0.0020636 seconds
+Start importing ProjectSettings/GraphicsSettings.asset using Guid(00000000000000006100000000000000) (LibraryAssetImporter) -> (artifact id: 'b6bb67d058cf36f36602f89180b4028a') in 0.0018076 seconds
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) (NativeFormatImporter) -> (artifact id: '0dbc1c8408b10b076cee5f2286fa9d43') in 0.0092969 seconds
+Refreshing native plugins compatible for Editor in 4.76 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=1ef8bc450127ee946bdbe5be6e7f3e59): Total: 0.037 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Diagnostics Data is enabled, and it requires Debug Symbols to be either SymbolTable or Full to resolve stacktraces in crash reports. Consider selecting Full to receive fully-detailed crash reports.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.PostProcessAndroidPlayer:SetupContextForPreBuild (UnityEditor.BuildOptions,UnityEditor.BuildTarget) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessAndroidPlayer.cs:142)
+UnityEditor.Android.PostProcessAndroidPlayer:PrepareForBuild (UnityEditor.BuildOptions,UnityEditor.BuildTarget) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessAndroidPlayer.cs:49)
+UnityEditor.Android.AndroidBuildPostprocessor:PrepareForBuild (UnityEditor.BuildPlayerOptions) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:1254)
+UnityEditor.PostprocessBuildPlayer:PrepareForBuild (UnityEditor.BuildPlayerOptions)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Ecclesia.EditorTools.ProjectSetup:BuildAndroid () (at Assets/Ecclesia/Editor/ProjectSetup.cs:74)
+
+(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessAndroidPlayer.cs Line: 142)
+
+DisplayProgressbar: Checking prerequisites
+Reporting tool paths:
+ JDK: 'C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK'
+ Android SDK: 'C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK'
+ Android NDK: 'C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\NDK'
+ Gradle: 'C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\gradle' (Gradle Version: '9.3.1' Android Plugin Version: '9.1.1')
+Android PostProcess task "Checking prerequisites" took 25.5438 ms
+DisplayProgressbar: Detect Java Development Kit (JDK)
+Android PostProcess task "Detect Java Development Kit (JDK)" took 2.8781 ms
+DisplayProgressbar: Detecting Android SDK
+AndroidSDKTools:
+
+	root          : C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK
+	cmdline-tools : C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\cmdline-tools\16.0
+	platform-tools: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools
+	build-tools   : C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\36.0.0
+
+	adb           : C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\adb.exe
+
+Android PostProcess task "Detecting Android SDK" took 1667.407 ms
+DisplayProgressbar: Detect Android NDK
+Android PostProcess task "Detect Android NDK" took 1.3494 ms
+Android PostProcess task "Trying to find a suitable Android device" took 0.2895 ms
+DisplayProgressbar: Check resources
+Android PostProcess task "Check resources" took 0.1874 ms
+DisplayProgressbar: Check Android Player Settings
+Android PostProcess task "Check Android Player Settings" took 1.3704 ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aESkipCompile.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s937ms
+[3/4        0s] BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json
+*** Tundra build success (0.90 seconds), 1 items updated, 4 evaluated
+Asset Pipeline Refresh (id=86b1eb2f69d042c4ab1e944c43d16ed5): Total: 0.012 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[ScriptCompilation] Requested script compilation because: Recompiling scripts for player build.
+BuildPlayer: start building target 13
+Total cache size 267353486
+Total cache size after purge 267353486, took 00:00:00.1950888
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aPDevDbg.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject
+ExitCode: 0 Duration: 2s883ms
+[440/661    0s] WriteResponseFile Library/Bee/artifacts/rsp/4747638433968585886.rsp
+[558/661    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[591/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.2D.IK.Runtime.dll
+[592/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll
+[593/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Firebase.App.Internal.dll
+[594/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll
+[595/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll
+[596/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.UnifiedRayTracing.Runtime.dll
+[597/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.2D.Tilemap.Extras.dll
+[598/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll
+[599/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll
+[600/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll
+[601/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+[602/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.DocCodeExamples.dll
+[603/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll
+[604/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Center.Common.dll
+[605/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+[606/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.dll
+[607/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll
+[608/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll
+[609/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.004.dll
+[610/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll
+[611/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+[612/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll
+[613/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll
+[614/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll
+[615/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll
+[616/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+[617/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.pdb
+[618/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.dll
+[619/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Collections.pdb
+[620/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.pdb
+[621/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.001.pdb
+[622/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll
+[623/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.pdb
+[624/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll
+[625/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb
+[626/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll
+[627/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.pdb
+[628/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.pdb
+[629/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.pdb
+[630/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.DocCodeExamples.pdb
+[631/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Center.Common.pdb
+[632/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll
+[633/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.pdb
+[634/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb
+[635/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Burst.pdb
+[636/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll
+[637/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.004.pdb
+[638/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb
+[639/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.pdb
+[640/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.pdb
+[641/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.pdb
+[642/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Firebase.App.Internal.pdb
+[643/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.pdb
+[644/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.UnifiedRayTracing.Runtime.pdb
+[645/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb
+[646/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb
+[647/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb
+[648/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb
+[649/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.pdb
+[650/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.2D.IK.Runtime.pdb
+[651/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb
+[652/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.2D.Common.Runtime.pdb
+[653/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.2D.Tilemap.Extras.pdb
+[654/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.pdb
+[655/661    1s] Csc Library/Bee/artifacts/1300b0aPDevDbg.dag/Assembly-CSharp.dll (+2 others)
+[656/661    0s] ILPostProcess Library/Bee/artifacts/1300b0aPDevDbg.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aPDevDbg.dag/Assembly-CSharp.dll, with 143 defines and 237 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[657/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb
+[658/661    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll
+[660/661    0s] BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)
+*** Tundra build success (2.85 seconds), 71 items updated, 661 evaluated
+Total cache size 267353486
+Total cache size after purge 267353486, took 00:00:00.2032436
+Not rebuilding Data files -- no changes
+
+
+Mono dependencies included in the build
+Dependency assembly - System.Runtime.Loader.dll
+Dependency assembly - System.Runtime.dll
+Dependency assembly - System.Security.Cryptography.DeriveBytes.dll
+Dependency assembly - System.Diagnostics.Tools.dll
+Dependency assembly - System.Security.Cryptography.Csp.dll
+Dependency assembly - System.Net.NetworkInformation.dll
+Dependency assembly - System.Reflection.Emit.ILGeneration.dll
+Dependency assembly - System.Security.Cryptography.Encryption.dll
+Dependency assembly - System.Security.Cryptography.X509Certificates.dll
+Dependency assembly - System.Threading.Overlapped.dll
+Dependency assembly - Unity.InternalAPIEngineBridge.004.dll
+Dependency assembly - System.Runtime.InteropServices.dll
+Dependency assembly - Unity.RenderPipelines.Core.ShaderLibrary.dll
+Dependency assembly - System.Data.SqlClient.dll
+Dependency assembly - System.Xml.Linq.dll
+Dependency assembly - Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Dependency assembly - Unity.Timeline.dll
+Dependency assembly - System.DirectoryServices.Protocols.dll
+Dependency assembly - System.Reflection.TypeExtensions.dll
+Dependency assembly - System.Security.Cryptography.RandomNumberGenerator.dll
+Dependency assembly - System.ValueTuple.dll
+Dependency assembly - System.Web.Extensions.dll
+Dependency assembly - System.ComponentModel.TypeConverter.dll
+Dependency assembly - Unity.RenderPipelines.GPUDriven.Runtime.dll
+Dependency assembly - System.Net.HttpListener.dll
+Dependency assembly - System.IO.FileSystem.dll
+Dependency assembly - System.Drawing.Primitives.dll
+Dependency assembly - System.Net.Requests.dll
+Dependency assembly - System.Resources.Reader.dll
+Dependency assembly - System.Globalization.dll
+Dependency assembly - System.Security.Cryptography.RSA.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.Windows.dll
+Dependency assembly - System.Security.Cryptography.Encryption.ECDiffieHellman.dll
+Dependency assembly - System.Resources.Writer.dll
+Dependency assembly - System.Web.DynamicData.dll
+Dependency assembly - System.Threading.dll
+Dependency assembly - System.Security.Cryptography.Encoding.dll
+Dependency assembly - netstandard.dll
+Dependency assembly - System.Net.Ping.dll
+Dependency assembly - System.Resources.ResourceManager.dll
+Dependency assembly - System.Data.Services.Client.dll
+Dependency assembly - System.Net.Primitives.dll
+Dependency assembly - System.ServiceProcess.ServiceController.dll
+Dependency assembly - System.DirectoryServices.dll
+Dependency assembly - Assembly-CSharp.dll
+Dependency assembly - I18N.CJK.dll
+Dependency assembly - System.Net.AuthenticationManager.dll
+Dependency assembly - System.Xml.XmlDocument.dll
+Dependency assembly - System.Reflection.Emit.Lightweight.dll
+Dependency assembly - System.ServiceProcess.dll
+Dependency assembly - System.Reflection.DispatchProxy.dll
+Dependency assembly - System.ServiceModel.Security.dll
+Dependency assembly - System.ComponentModel.Primitives.dll
+Dependency assembly - System.Collections.dll
+Dependency assembly - System.IdentityModel.dll
+Dependency assembly - System.Runtime.Extensions.dll
+Dependency assembly - System.Net.Http.WebRequest.dll
+Dependency assembly - System.Security.Cryptography.Encryption.ECDsa.dll
+Dependency assembly - System.Web.Services.dll
+Dependency assembly - System.Net.Security.dll
+Dependency assembly - Microsoft.Win32.Registry.AccessControl.dll
+Dependency assembly - System.Web.Extensions.Design.dll
+Dependency assembly - System.Text.RegularExpressions.dll
+Dependency assembly - System.Runtime.Handles.dll
+Dependency assembly - System.Security.Cryptography.Encryption.Aes.dll
+Dependency assembly - System.ServiceModel.Discovery.dll
+Dependency assembly - System.ServiceModel.Web.dll
+Dependency assembly - System.IO.dll
+Dependency assembly - Unity.VisualScripting.DocCodeExamples.dll
+Dependency assembly - System.ServiceModel.NetTcp.dll
+Dependency assembly - Unity.2D.IK.Runtime.dll
+Dependency assembly - System.Net.Mail.dll
+Dependency assembly - System.Net.Http.dll
+Dependency assembly - System.Runtime.CompilerServices.VisualC.dll
+Dependency assembly - Microsoft.CSharp.dll
+Dependency assembly - System.Net.Sockets.dll
+Dependency assembly - System.Threading.Tasks.Parallel.dll
+Dependency assembly - System.Runtime.Serialization.Formatters.Soap.dll
+Dependency assembly - System.IO.UnmanagedMemoryStream.dll
+Dependency assembly - Unity.UnifiedRayTracing.Runtime.dll
+Dependency assembly - System.Net.Utilities.dll
+Dependency assembly - System.Runtime.Remoting.dll
+Dependency assembly - System.Net.WebSockets.Client.dll
+Dependency assembly - System.Security.Claims.dll
+Dependency assembly - System.IO.MemoryMappedFiles.dll
+Dependency assembly - Unity.RenderPipelines.Core.Runtime.Shared.dll
+Dependency assembly - Unity.RenderPipelines.Universal.Runtime.dll
+Dependency assembly - System.Data.Common.dll
+Dependency assembly - System.Configuration.Install.dll
+Dependency assembly - System.Reflection.Extensions.dll
+Dependency assembly - Unity.2D.SpriteShape.Runtime.dll
+Dependency assembly - Unity.RenderPipelines.Universal.Shaders.dll
+Dependency assembly - I18N.West.dll
+Dependency assembly - System.Collections.Concurrent.dll
+Dependency assembly - System.Reflection.dll
+Dependency assembly - Google.MiniJson.dll
+Dependency assembly - Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Dependency assembly - System.Collections.NonGeneric.dll
+Dependency assembly - System.Security.Principal.Windows.dll
+Dependency assembly - Microsoft.Win32.Primitives.dll
+Dependency assembly - System.ServiceModel.Http.dll
+Dependency assembly - System.Collections.Specialized.dll
+Dependency assembly - System.Xml.XPath.XDocument.dll
+Dependency assembly - System.ComponentModel.DataAnnotations.dll
+Dependency assembly - Unity.Burst.Unsafe.dll
+Dependency assembly - System.Web.ApplicationServices.dll
+Dependency assembly - Mono.Data.Tds.dll
+Dependency assembly - System.Drawing.Design.dll
+Dependency assembly - Firebase.App.Internal.dll
+Dependency assembly - System.Linq.Expressions.dll
+Dependency assembly - System.Runtime.Numerics.dll
+Dependency assembly - Microsoft.Win32.Registry.dll
+Dependency assembly - System.Security.Cryptography.Hashing.Algorithms.dll
+Dependency assembly - Firebase.TaskExtension.dll
+Dependency assembly - System.IO.Pipes.dll
+Dependency assembly - System.Xml.Xsl.Primitives.dll
+Dependency assembly - System.Runtime.DurableInstancing.dll
+Dependency assembly - System.Data.OracleClient.dll
+Dependency assembly - System.Security.AccessControl.dll
+Dependency assembly - System.AppContext.dll
+Dependency assembly - System.Data.Services.dll
+Dependency assembly - System.Net.dll
+Dependency assembly - System.Xml.XDocument.dll
+Dependency assembly - System.Linq.Parallel.dll
+Dependency assembly - System.Data.Entity.dll
+Dependency assembly - System.ServiceModel.Activation.dll
+Dependency assembly - Accessibility.dll
+Dependency assembly - System.Buffers.dll
+Dependency assembly - System.Runtime.InteropServices.WindowsRuntime.dll
+Dependency assembly - System.Security.SecureString.dll
+Dependency assembly - Firebase.Auth.dll
+Dependency assembly - System.ServiceModel.Internals.dll
+Dependency assembly - System.IO.FileSystem.Primitives.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - I18N.Other.dll
+Dependency assembly - System.Web.RegularExpressions.dll
+Dependency assembly - System.Data.DataSetExtensions.dll
+Dependency assembly - System.ComponentModel.Annotations.dll
+Dependency assembly - Unity.Multiplayer.Center.Common.dll
+Dependency assembly - System.Json.dll
+Dependency assembly - System.IO.Compression.FileSystem.dll
+Dependency assembly - System.Diagnostics.Debug.dll
+Dependency assembly - System.Net.WebSockets.dll
+Dependency assembly - System.Windows.Forms.DataVisualization.dll
+Dependency assembly - I18N.MidEast.dll
+Dependency assembly - System.Security.Cryptography.Cng.dll
+Dependency assembly - System.Configuration.dll
+Dependency assembly - System.Dynamic.Runtime.dll
+Dependency assembly - System.IO.Compression.dll
+Dependency assembly - System.EnterpriseServices.dll
+Dependency assembly - I18N.dll
+Dependency assembly - System.ServiceModel.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - System.Management.dll
+Dependency assembly - System.Xaml.dll
+Dependency assembly - Firebase.App.dll
+Dependency assembly - System.Resources.ReaderWriter.dll
+Dependency assembly - System.Text.Encoding.dll
+Dependency assembly - System.Threading.Tasks.Extensions.dll
+Dependency assembly - System.Windows.Forms.dll
+Dependency assembly - Unity.Collections.dll
+Dependency assembly - System.Threading.AccessControl.dll
+Dependency assembly - System.Threading.Tasks.dll
+Dependency assembly - System.ObjectModel.dll
+Dependency assembly - System.Net.NameResolution.dll
+Dependency assembly - System.Net.ServicePoint.dll
+Dependency assembly - Unity.VisualScripting.State.dll
+Dependency assembly - Unity.RenderPipelines.Universal.Config.Runtime.dll
+Dependency assembly - System.Diagnostics.StackTrace.dll
+Dependency assembly - System.Xml.Serialization.dll
+Dependency assembly - System.Security.Cryptography.Primitives.dll
+Dependency assembly - System.Threading.Thread.dll
+Dependency assembly - System.Drawing.dll
+Dependency assembly - System.Diagnostics.TraceSource.dll
+Dependency assembly - Unity.TextMeshPro.dll
+Dependency assembly - System.Text.Encoding.CodePages.dll
+Dependency assembly - System.Diagnostics.Process.dll
+Dependency assembly - Unity.InputSystem.ForUI.dll
+Dependency assembly - System.ComponentModel.dll
+Dependency assembly - System.Runtime.Serialization.Formatters.dll
+Dependency assembly - System.IdentityModel.Selectors.dll
+Dependency assembly - System.Globalization.Extensions.dll
+Dependency assembly - Unity.VisualScripting.Flow.dll
+Dependency assembly - System.Diagnostics.TextWriterTraceListener.dll
+Dependency assembly - System.Runtime.Caching.dll
+Dependency assembly - System.IO.FileSystem.DriveInfo.dll
+Dependency assembly - System.Net.Cache.dll
+Dependency assembly - System.ServiceModel.Routing.dll
+Dependency assembly - System.Threading.ThreadPool.dll
+Dependency assembly - System.Reflection.Context.dll
+Dependency assembly - System.Globalization.Calendars.dll
+Dependency assembly - System.Reflection.Emit.dll
+Dependency assembly - System.Text.Encoding.Extensions.dll
+Dependency assembly - System.Diagnostics.Contracts.dll
+Dependency assembly - System.Security.Cryptography.Pkcs.dll
+Dependency assembly - System.IO.FileSystem.AccessControl.dll
+Dependency assembly - Unity.InternalAPIEngineBridge.001.dll
+Dependency assembly - Unity.Burst.dll
+Dependency assembly - System.Xml.XPath.XmlDocument.dll
+Dependency assembly - Firebase.Platform.dll
+Dependency assembly - Unity.RenderPipelines.Universal.2D.Runtime.dll
+Dependency assembly - Unity.VisualScripting.Core.dll
+Dependency assembly - Unity.2D.Animation.Runtime.dll
+Dependency assembly - System.Security.Cryptography.Hashing.dll
+Dependency assembly - System.ComponentModel.EventBasedAsync.dll
+Dependency assembly - System.Data.dll
+Dependency assembly - System.Memory.dll
+Dependency assembly - System.Transactions.dll
+Dependency assembly - System.Xml.dll
+Dependency assembly - System.Design.dll
+Dependency assembly - System.Diagnostics.FileVersionInfo.dll
+Dependency assembly - System.Security.Cryptography.ProtectedData.dll
+Dependency assembly - System.Xml.ReaderWriter.dll
+Dependency assembly - System.Runtime.Serialization.dll
+Dependency assembly - System.ServiceModel.Primitives.dll
+Dependency assembly - Unity.Collections.LowLevel.ILSupport.dll
+Dependency assembly - Unity.2D.Common.Runtime.dll
+Dependency assembly - System.Linq.dll
+Dependency assembly - Unity.2D.Tilemap.Extras.dll
+Dependency assembly - System.Runtime.Serialization.Xml.dll
+Dependency assembly - Mono.Data.Sqlite.dll
+Dependency assembly - System.Security.Cryptography.OpenSsl.dll
+Dependency assembly - System.Net.WebHeaderCollection.dll
+Dependency assembly - System.Runtime.Serialization.Primitives.dll
+Dependency assembly - I18N.Rare.dll
+Dependency assembly - System.Security.dll
+Dependency assembly - System.Runtime.Serialization.Json.dll
+Dependency assembly - Unity.RenderPipelines.Core.Runtime.dll
+Dependency assembly - Unity.Mathematics.dll
+Dependency assembly - System.Reflection.Primitives.dll
+Dependency assembly - System.Console.dll
+Dependency assembly - System.IO.IsolatedStorage.dll
+Dependency assembly - System.Xml.XPath.dll
+Dependency assembly - System.Linq.Queryable.dll
+Dependency assembly - System.Data.Linq.dll
+Dependency assembly - System.ServiceModel.Duplex.dll
+Dependency assembly - System.IO.Compression.ZipFile.dll
+Dependency assembly - System.Xml.XmlSerializer.dll
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Security.Principal.dll
+Dependency assembly - System.Diagnostics.Tracing.dll
+Dependency assembly - System.Numerics.Vectors.dll
+Dependency assembly - System.dll
+Dependency assembly - System.IO.FileSystem.Watcher.dll
+Dependency assembly - System.Runtime.InteropServices.RuntimeInformation.dll
+Dependency assembly - System.Messaging.dll
+Dependency assembly - System.ComponentModel.Composition.dll
+Dependency assembly - Unity.VisualScripting.Antlr3.Runtime.dll
+Dependency assembly - Unity.InputSystem.dll
+Dependency assembly - System.Security.Cryptography.Algorithms.dll
+Dependency assembly - System.Diagnostics.TraceEvent.dll
+Dependency assembly - System.Web.dll
+Dependency assembly - System.Threading.Timer.dll
+Dependency assembly - System.Numerics.dll
+
+DisplayProgressbar: Initializing
+Android PostProcess task "Initializing" took 0.6611 ms
+DisplayProgressbar: Check gradle project collisions
+Android PostProcess task "Check gradle project collisions" took 0.1844 ms
+DisplayProgressbar: Preparing banner
+Android PostProcess task "Preparing banner" took 0.2408 ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Player899d007a.dag" --profile="Library/Bee/backend1.traceevents" Player
+WorkingDir: C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject
+DisplayProgressbar: Incremental Player Build
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\AndroidPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/Bee;C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Player899d007a.dag.json" "Library/Bee/Player899d007a-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject
+ExitCode: 4 Duration: 5s584ms
+ExitCode: 0 Duration: 0s547ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Player899d007a.dag" --dagfilejson="Library\Bee\Player899d007a.dag.json" --profile="Library/Bee/backend2.traceevents" Player
+WorkingDir: C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject
+C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject/Library/PackageCache/com.unity.burst@bfa84123c21a/.Runtime\bcl.exe exited after 4252 ms.
+stdout:
+Starting 1 library requests
+Done
+stderr:
+
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\AndroidPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/Bee;C:/Program Files/Unity/Hub/Editor/6000.3.28f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Player899d007a.dag.json" "Library/Bee/Player899d007a-inputdata.json" "Library\Bee\buildprogram1.traceevents"
+WorkingDir: C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject
+ExitCode: 4 Duration: 18s
+ExitCode: 0 Duration: 0s513ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Player899d007a.dag" --dagfilejson="Library\Bee\Player899d007a.dag.json" --profile="Library/Bee/backend3.traceevents" Player
+WorkingDir: C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject
+ExitCode: 0 Duration: 0s259ms
+DisplayProgressbar: Calling IPostGenerateGradleAndroidProject callbacks
+Calling IPostGenerateGradleAndroidProject callbacks on 'C:\Users\fan\Documents\P_Ecclesia\P_Ecclesia\Tools\ValidationProject\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary':
+    Call "Ecclesia.EditorTools.AndroidDependencies.OnPostGenerateGradleAndroidProject" from assembly 'Assembly-CSharp-Editor'
+ECCLESIA: Firebase and Google Android dependencies added to generated Gradle project.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Ecclesia.EditorTools.AndroidDependencies:OnPostGenerateGradleAndroidProject (string) (at Assets/Ecclesia/Editor/AndroidDependencies.cs:37)
+UnityEditor.Android.PostProcessor.Tasks.ProcessGenerateProjectCallbacks:OnGeneratePlatformProjectPostprocess (string,bool) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/Tasks/ProcessGenerateProjectCallbacks.cs:41)
+UnityEditor.Android.PostProcessor.Tasks.ProcessGenerateProjectCallbacks:Execute (UnityEditor.Android.PostProcessor.PostProcessorContext) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/Tasks/ProcessGenerateProjectCallbacks.cs:67)
+UnityEditor.Android.PostProcessor.PostProcessRunner:RunAllTasks (UnityEditor.Android.PostProcessor.PostProcessorContext) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/AndroidPostProcessor.cs:112)
+UnityEditor.Android.PostProcessAndroidPlayer:PostProcess (UnityEditor.Modules.BuildPostProcessArgs,AndroidPlayerBuildProgram.Data.AndroidPlayerBuildProgramOutput) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessAndroidPlayer.cs:353)
+UnityEditor.Android.AndroidBuildPostprocessor:PostProcess (UnityEditor.Modules.BuildPostProcessArgs,UnityEditor.BuildProperties&) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:408)
+UnityEditor.PostprocessBuildPlayer:Postprocess (UnityEditor.BuildTarget,int,string,string,string,UnityEditor.BuildOptions,UnityEditor.RuntimeClassRegistry,UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Ecclesia.EditorTools.ProjectSetup:BuildAndroid () (at Assets/Ecclesia/Editor/ProjectSetup.cs:74)
+
+(Filename: Assets/Ecclesia/Editor/AndroidDependencies.cs Line: 37)
+
+Android PostProcess task "Calling IPostGenerateGradleAndroidProject callbacks" took 21.7241 ms
+DisplayProgressbar: Validate Gradle Project
+Android PostProcess task "Validate Gradle Project" took 1.1465 ms
+Android PostProcess task "Unity Services Symbol Upload" took 0.2752 ms
+DisplayProgressbar: Building Gradle project
+Total cache size 267353486
+Total cache size after purge 267353486, took 00:00:00.1820295
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe -classpath "C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\gradle\lib\gradle-launcher-9.3.1.jar" org.gradle.launcher.GradleMain "-Dorg.gradle.jvmargs=-Xmx4096m" "assembleDebug" 
+WorkingDir: C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject/Library/Bee/Android/Prj/IL2CPP/Gradle\launcher
+Android PostProcess task "Building Gradle project" took 39810.9193 ms
+DisplayProgressbar: Building Gradle Symbols
+Android PostProcess task "Building Gradle Symbols" took 0.1812 ms
+DisplayProgressbar: Processing Mapping File
+Android PostProcess task "Processing Mapping File" took 0.2098 ms
+DisplayProgressbar: Moving output package(s)
+Copy 'C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject/Library/Bee/Android/Prj/IL2CPP/Gradle\launcher\build\outputs\apk\debug\launcher-debug.apk' -> 
+ 'C:/Users/fan/Documents/P_Ecclesia/P_Ecclesia/Tools/ValidationProject/Builds/Android/Ecclesia-prototype.apk'
+Android PostProcess task "Moving output package(s)" took 1771.2802 ms
+Android PostProcess task "Checking Symbols size" took 0.6153 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 14.99 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=e8e395feb5189564cbb416b85c24583c): Total: 0.190 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Stripping Runtime Debug Shader Variants, you won't be able to use some features of Rendering Debugger in the Player Build.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.Rendering.ShaderStripping:ReportEnd () (at ./Library/PackageCache/com.unity.render-pipelines.core@3424017a4ec3/Editor/ShaderStripping/ShaderStrippingReport.cs:379)
+UnityEditor.Rendering.ShaderStrippingReportScope:OnPostprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.unity.render-pipelines.core@3424017a4ec3/Editor/ShaderStripping/ShaderStrippingReport.cs:134)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass21_0:<OnBuildPostProcess>b__1 (UnityEditor.Build.IPostprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPostprocessBuild, UnityEditor.Build.IPostprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPostprocessBuild>,System.Action`1<UnityEditor.Build.IPostprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPostprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPostprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPostProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+Ecclesia.EditorTools.ProjectSetup:BuildAndroid () (at Assets/Ecclesia/Editor/ProjectSetup.cs:74)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.core@3424017a4ec3/Editor/ShaderStripping/ShaderStrippingReport.cs Line: 379)
+
+Refreshing native plugins compatible for Editor in 5.10 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+-------------------------------------------------------------------------------
+Build Report
+Information on used Assets is not available, since player data was not rebuilt.
+Do a clean build to view the Asset build report information.
+-------------------------------------------------------------------------------
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 167 unused Assets / (0.8 MB). Loaded Objects now: 8301.
+Memory consumption went from 258.2 MB to 257.4 MB.
+Total: 7.726800 ms (FindLiveObjects: 0.507300 ms CreateObjectMapping: 0.199300 ms MarkObjects: 6.410400 ms  DeleteObjects: 0.608100 ms)
+
+DisplayProgressNotification: Build Successful
+Build Finished, Result: Success.
+##utp:{"type":"PlayerBuildInfo","version":2,"phase":"Immediate","time":1793779830369,"processId":56736,"steps":[{"description":"Preprocess Player","duration":197},{"description":"Prepare For Build","duration":1709},{"description":"ProducePlayerScriptAssemblies","duration":4156},{"description":"Verify Build setup","duration":277},{"description":"Prepare assets for target platform","duration":6},{"description":"Prepare splash screen","duration":4},{"description":"Run script only build","duration":54},{"description":"Postprocess built player","duration":68117}],"duration":74520}
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.586 ms
+	Integration:            209.507 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.006 ms
+	Total Operation Time:   211.100 ms
+Unloading 0 unused Assets / (Unknown). Loaded Objects now: 8300.
+Memory consumption went from 256.7 MB to 256.7 MB.
+Total: 5.916100 ms (FindLiveObjects: 0.303100 ms CreateObjectMapping: 0.134000 ms MarkObjects: 5.459600 ms  DeleteObjects: 0.017800 ms)
+
+Batchmode quit successfully invoked - shutting down!
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe -classpath "C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\gradle\lib\gradle-launcher-9.3.1.jar" org.gradle.launcher.GradleMain "-Dorg.gradle.jvmargs=-Xmx4096m" "--stop" 
+WorkingDir: 
+Killing ADB server in 2.1900546 seconds.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-fan-1.19.0-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-fan-1.19.0 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

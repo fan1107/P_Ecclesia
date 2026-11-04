@@ -1,0 +1,130 @@
+[
+  {
+    "name": "AndroidGoogleSignIn.cs",
+    "path": "Runtime/AndroidGoogleSignIn.cs",
+    "sha": "7dd946ea54c3c7e444b41c1af8e7615c9c4c3b73",
+    "size": 2162,
+    "url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/AndroidGoogleSignIn.cs?ref=main",
+    "html_url": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/AndroidGoogleSignIn.cs",
+    "git_url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/7dd946ea54c3c7e444b41c1af8e7615c9c4c3b73",
+    "download_url": "https://raw.githubusercontent.com/googlesamples/siwg-mobile-unity-plugin/main/Runtime/AndroidGoogleSignIn.cs",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/AndroidGoogleSignIn.cs?ref=main",
+      "git": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/7dd946ea54c3c7e444b41c1af8e7615c9c4c3b73",
+      "html": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/AndroidGoogleSignIn.cs"
+    }
+  },
+  {
+    "name": "AndroidGoogleSignIn.cs.meta",
+    "path": "Runtime/AndroidGoogleSignIn.cs.meta",
+    "sha": "e1a359489902ca265eeec7c85d99314432b19ed6",
+    "size": 59,
+    "url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/AndroidGoogleSignIn.cs.meta?ref=main",
+    "html_url": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/AndroidGoogleSignIn.cs.meta",
+    "git_url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/e1a359489902ca265eeec7c85d99314432b19ed6",
+    "download_url": "https://raw.githubusercontent.com/googlesamples/siwg-mobile-unity-plugin/main/Runtime/AndroidGoogleSignIn.cs.meta",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/AndroidGoogleSignIn.cs.meta?ref=main",
+      "git": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/e1a359489902ca265eeec7c85d99314432b19ed6",
+      "html": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/AndroidGoogleSignIn.cs.meta"
+    }
+  },
+  {
+    "name": "GoogleSignInManager.cs",
+    "path": "Runtime/GoogleSignInManager.cs",
+    "sha": "5fb21494e59ea486ccf4de57ef37fa5f1d9be1f3",
+    "size": 3457,
+    "url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/GoogleSignInManager.cs?ref=main",
+    "html_url": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/GoogleSignInManager.cs",
+    "git_url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/5fb21494e59ea486ccf4de57ef37fa5f1d9be1f3",
+    "download_url": "https://raw.githubusercontent.com/googlesamples/siwg-mobile-unity-plugin/main/Runtime/GoogleSignInManager.cs",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/GoogleSignInManager.cs?ref=main",
+      "git": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/5fb21494e59ea486ccf4de57ef37fa5f1d9be1f3",
+      "html": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/GoogleSignInManager.cs"
+    }
+  },
+  {
+    "name": "GoogleSignInManager.cs.meta",
+    "path": "Runtime/GoogleSignInManager.cs.meta",
+    "sha": "d06c0938940f2a23fc0af4d5dd6bd762fa9a8500",
+    "size": 59,
+    "url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/GoogleSignInManager.cs.meta?ref=main",
+    "html_url": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/GoogleSignInManager.cs.meta",
+    "git_url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/d06c0938940f2a23fc0af4d5dd6bd762fa9a8500",
+    "download_url": "https://raw.githubusercontent.com/googlesamples/siwg-mobile-unity-plugin/main/Runtime/GoogleSignInManager.cs.meta",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/GoogleSignInManager.cs.meta?ref=main",
+      "git": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/d06c0938940f2a23fc0af4d5dd6bd762fa9a8500",
+      "html": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/GoogleSignInManager.cs.meta"
+    }
+  },
+  {
+    "name": "GoogleSignInNativeSettingsSO.cs",
+    "path": "Runtime/GoogleSignInNativeSettingsSO.cs",
+    "sha": "15a71a91e0d07cd81af39a2e85805c983fdb7f62",
+    "size": 1497,
+    "url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/GoogleSignInNativeSettingsSO.cs?ref=main",
+    "html_url": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/GoogleSignInNativeSettingsSO.cs",
+    "git_url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/15a71a91e0d07cd81af39a2e85805c983fdb7f62",
+    "download_url": "https://raw.githubusercontent.com/googlesamples/siwg-mobile-unity-plugin/main/Runtime/GoogleSignInNativeSettingsSO.cs",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/GoogleSignInNativeSettingsSO.cs?ref=main",
+      "git": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/15a71a91e0d07cd81af39a2e85805c983fdb7f62",
+      "html": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/GoogleSignInNativeSettingsSO.cs"
+    }
+  },
+  {
+    "name": "GoogleSignInNativeSettingsSO.cs.meta",
+    "path": "Runtime/GoogleSignInNativeSettingsSO.cs.meta",
+    "sha": "4ccd842b721632634bafeb703afcd2da624632ac",
+    "size": 59,
+    "url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/GoogleSignInNativeSettingsSO.cs.meta?ref=main",
+    "html_url": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/GoogleSignInNativeSettingsSO.cs.meta",
+    "git_url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/4ccd842b721632634bafeb703afcd2da624632ac",
+    "download_url": "https://raw.githubusercontent.com/googlesamples/siwg-mobile-unity-plugin/main/Runtime/GoogleSignInNativeSettingsSO.cs.meta",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/GoogleSignInNativeSettingsSO.cs.meta?ref=main",
+      "git": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/4ccd842b721632634bafeb703afcd2da624632ac",
+      "html": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/GoogleSignInNativeSettingsSO.cs.meta"
+    }
+  },
+  {
+    "name": "iOSGoogleSignIn.cs",
+    "path": "Runtime/iOSGoogleSignIn.cs",
+    "sha": "93b63393c92d7bef31a0f9cabee30498400a55e9",
+    "size": 1318,
+    "url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/iOSGoogleSignIn.cs?ref=main",
+    "html_url": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/iOSGoogleSignIn.cs",
+    "git_url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/93b63393c92d7bef31a0f9cabee30498400a55e9",
+    "download_url": "https://raw.githubusercontent.com/googlesamples/siwg-mobile-unity-plugin/main/Runtime/iOSGoogleSignIn.cs",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/iOSGoogleSignIn.cs?ref=main",
+      "git": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/93b63393c92d7bef31a0f9cabee30498400a55e9",
+      "html": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/iOSGoogleSignIn.cs"
+    }
+  },
+  {
+    "name": "iOSGoogleSignIn.cs.meta",
+    "path": "Runtime/iOSGoogleSignIn.cs.meta",
+    "sha": "d82a10d2d8e1aad1eb0874a8aa4029e0ef307e1d",
+    "size": 59,
+    "url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/iOSGoogleSignIn.cs.meta?ref=main",
+    "html_url": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/iOSGoogleSignIn.cs.meta",
+    "git_url": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/d82a10d2d8e1aad1eb0874a8aa4029e0ef307e1d",
+    "download_url": "https://raw.githubusercontent.com/googlesamples/siwg-mobile-unity-plugin/main/Runtime/iOSGoogleSignIn.cs.meta",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/contents/Runtime/iOSGoogleSignIn.cs.meta?ref=main",
+      "git": "https://api.github.com/repos/googlesamples/siwg-mobile-unity-plugin/git/blobs/d82a10d2d8e1aad1eb0874a8aa4029e0ef307e1d",
+      "html": "https://github.com/googlesamples/siwg-mobile-unity-plugin/blob/main/Runtime/iOSGoogleSignIn.cs.meta"
+    }
+  }
+]

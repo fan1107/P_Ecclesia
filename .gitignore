@@ -1,0 +1,60 @@
+# Unity 자동 생성 폴더
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE / Visual Studio
+/.vs/
+/.vscode/
+/.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS 임시 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Unity 임시 파일
+*.tmp
+*.bak
+*.swp
+*.utmp
+
+# 빌드 결과물
+*.apk
+*.aab
+*.unitypackage
+
+# 로컬 생성 파일
+/Assets/GeneratedLocalRepo/
+/Assets/Resources/GDKEditionAutoGen/
+/Assets/Resources/GDKEditionAutoGen.meta
+
+# 하위 Unity 프로젝트 자동 생성 폴더
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Uu]serSettings/
+
+/Tools/firebase_unity_sdk_14.1.0.zip
