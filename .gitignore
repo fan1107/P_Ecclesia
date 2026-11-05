@@ -44,6 +44,14 @@ Desktop.ini
 *.unitypackage
 
 # 로컬 생성 파일
+/Assets/google-services.json
+/Assets/google-services.json.meta
+/Assets/StreamingAssets/google-services-desktop.json
+/Assets/StreamingAssets/google-services-desktop.json.meta
+/Assets/Plugins/Android/FirebaseApp.androidlib/
+/Assets/Plugins/Android/FirebaseApp.androidlib.meta
+/Assets/Ecclesia/Resources/EcclesiaFirebaseConfigured.txt
+/Assets/Ecclesia/Resources/EcclesiaFirebaseConfigured.txt.meta
 /Assets/GeneratedLocalRepo/
 /Assets/Resources/GDKEditionAutoGen/
 /Assets/Resources/GDKEditionAutoGen.meta

@@ -4,7 +4,7 @@
 
 ## 프로젝트 열기
 
-- Unity: **6000.3.28f1**, Android Build Support + SDK/NDK/OpenJDK 필요.
+- Unity Hub에서 `ProjectSettings/ProjectVersion.txt`에 지정된 에디터 버전과 Android Build Support, SDK/NDK, OpenJDK를 설치합니다.
 - 메뉴 `Ecclesia > 1. Prepare Android and Scene`으로 설정 및 시작 씬을 준비합니다.
 - `Ecclesia > 3. Open Prototype`으로 씬을 열고 Play를 누릅니다.
 - `오프라인 둘러보기` → 교회 문 터치 → 장의자 좌석 터치 → `기도 시작`.
@@ -14,7 +14,7 @@
 
 ## 이미 추가된 의존성
 
-- Firebase Authentication Unity SDK **14.1.0** 및 포함된 External Dependency Manager.
+- Firebase Authentication과 Google Analytics for Firebase Unity SDK **14.1.0**, 함께 제공되는 External Dependency Manager.
 - Google 공식 `googlesamples/siwg-mobile-unity-plugin` 소스의 Android 플러그인과 C# 런타임.
 - Noto Sans KR (SIL Open Font License). 라이선스는 폰트와 함께 포함했습니다.
 - Google 플러그인 문서와 실제 코드의 이벤트 이름이 달라 실제 코드의 `OnSignInSuccess`, `OnSignInError`에 맞췄습니다.
@@ -22,10 +22,27 @@
 - Android 플러그인의 초기화 실패 콜백 이름을 실제 메서드에 맞게 수정하고, 실행 예외도 UI로 전달하도록 보완했습니다.
 - Unity 6000.3.28의 AGP 9 빌드에서 Google 플러그인의 Kotlin 소스가 컴파일되도록 built-in Kotlin을 활성화하고 Android 라이브러리의 manifest 경로를 지정합니다. 구버전 Kotlin Gradle 템플릿을 추가하지 않습니다.
 
-## 사용자가 Firebase 콘솔에서 해야 할 일
+## Google Analytics 연결
 
-1. [Firebase 콘솔](https://console.firebase.google.com/)에서 **개발용 프로젝트**를 만듭니다. 이번 단계에 Database, Functions, 결제 계정은 필요 없습니다.
-2. Android 앱을 등록합니다. 현재 패키지명은 **`com.ecclesia.prayer`**입니다. 변경하려면 등록 전에 `ProjectSetup.PackageName`과 Unity 설정을 함께 변경해야 합니다.
+1. [Firebase 콘솔](https://console.firebase.google.com/)에서 이 앱의 프로젝트를 선택합니다. 프로젝트 설정의 **통합 > Google 애널리틱스**에서 GA4 속성을 연결합니다.
+2. 같은 프로젝트의 **프로젝트 설정 > 일반 > 내 앱**에서 패키지 이름이 `com.ecclesia.prayer`인 Android 앱을 선택합니다. 처음이면 이 패키지 이름으로 Android 앱을 등록합니다.
+3. 해당 앱의 `google-services.json`을 내려받아 Unity 프로젝트의 `Assets/google-services.json`에 넣고 Android 앱을 다시 빌드합니다. 빌드 전처리가 패키지 이름과 Firebase 앱 ID를 확인합니다. Unity에서 미리 확인하려면 **Ecclesia > 2. Configure Firebase from google-services.json**을 실행합니다.
+4. 설정된 Android 앱을 실행하면 첫 씬 전에 Firebase 의존성을 확인한 뒤 Analytics 수집을 활성화합니다. Google 로그인 없이 SDK 기본 이벤트를 수집합니다. 설정 파일이 없으면 오프라인으로 실행할 수 있습니다.
+
+### Android 실기기에서 수신 확인
+
+USB 디버깅을 허용한 기기에 앱을 설치하고 아래 명령을 실행한 뒤 앱을 다시 엽니다. Firebase 콘솔의 **애널리틱스 > DebugView**에서 해당 기기의 `session_start` 이벤트를 확인합니다. [Firebase DebugView 안내](https://firebase.google.com/docs/analytics/debugview)
+
+```sh
+adb shell setprop debug.firebase.analytics.app com.ecclesia.prayer
+```
+
+검증이 끝나면 `adb shell setprop debug.firebase.analytics.app .none.`으로 디버그 모드를 해제합니다.
+
+## Google 로그인도 사용할 때
+
+1. [Firebase 콘솔](https://console.firebase.google.com/)에서 위의 Analytics 연결에 사용한 프로젝트를 엽니다.
+2. 등록한 Android 앱의 패키지명이 **`com.ecclesia.prayer`**인지 확인합니다.
 3. Firebase Authentication에서 Google 로그인 제공업체를 활성화하고 지원 이메일을 선택합니다.
 4. 프로젝트 설정의 Android 앱에 빌드 서명 인증서의 **SHA-1 및 SHA-256**을 등록합니다.
    - 개발 APK: 이 PC의 Android debug keystore 인증서.
@@ -35,7 +52,7 @@
 5. Google 설정을 활성화한 후 최신 `google-services.json`을 다운로드합니다.
 6. 파일을 이 프로젝트의 **`Assets/google-services.json`**에 둡니다. Git에서는 제외되어 있습니다.
 7. Unity 메뉴 **`Ecclesia > 2. Configure Firebase from google-services.json`**을 실행합니다. 패키지 일치 여부를 확인하고 Web OAuth Client ID(type 3)를 Google 설정에 자동 반영합니다.
-8. Web Client ID가 없다는 오류가 나면 Firebase의 Google 제공업체 활성화 여부를 확인하고 JSON을 다시 받습니다. Android Client ID를 대신 넣지 않습니다.
+8. Web Client ID가 없으면 Analytics만 초기화됩니다. Google 로그인을 사용하려면 Firebase의 Google 제공업체 활성화 여부를 확인하고 JSON을 다시 받습니다.
 9. OAuth 앱이 테스트 사용자 제한 상태이면 본인의 테스트 Google 계정을 허용 목록에 추가합니다.
 
 설정 확인 마커는 구성 파일의 존재를 나타낼 뿐, 인증 성공을 증명하지 않습니다. 실제 로그인은 Android 실기기에서 검증해야 합니다. ID 토큰은 파일이나 PlayerPrefs에 저장하지 않으며, 로그에도 출력하지 않습니다. 세션 복원은 Firebase SDK에 맡깁니다.

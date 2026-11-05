@@ -47,24 +47,43 @@ namespace Ecclesia.EditorTools
         }
         [Serializable] class Config { public Client[] client; }
         [Serializable] class Client { public ClientInfo client_info; public OAuth[] oauth_client; }
-        [Serializable] class ClientInfo { public AndroidInfo android_client_info; }
+        [Serializable] class ClientInfo { public AndroidInfo android_client_info; public string mobilesdk_app_id; }
         [Serializable] class AndroidInfo { public string package_name; }
         [Serializable] class OAuth { public int client_type; public string client_id; }
         [MenuItem("Ecclesia/2. Configure Firebase from google-services.json")]
         public static void ConfigureFirebase()
         {
             const string marker="Assets/Ecclesia/Resources/EcclesiaFirebaseConfigured.txt";
-            if(File.Exists(marker))AssetDatabase.DeleteAsset(marker);
-            if(!File.Exists("Assets/google-services.json")){Debug.Log("ECCLESIA: Firebase console configuration pending; offline mode is available.");return;}
-            var json=JsonUtility.FromJson<Config>(File.ReadAllText("Assets/google-services.json"));
-            var client=json.client?.FirstOrDefault(c=>c.client_info?.android_client_info?.package_name==PackageName);
-            var web=client?.oauth_client?.FirstOrDefault(c=>c.client_type==3)?.client_id;
-            if(string.IsNullOrWhiteSpace(web))throw new InvalidOperationException("google-services.json must contain com.ecclesia.prayer and a Web OAuth client (type 3). Enable Google in Firebase Authentication and download again.");
+            if (!File.Exists("Assets/google-services.json"))
+            {
+                if (File.Exists(marker)) AssetDatabase.DeleteAsset(marker);
+                Debug.Log("ECCLESIA: Firebase console configuration pending; offline mode is available.");
+                return;
+            }
+            var web = ReadWebClientId(File.ReadAllText("Assets/google-services.json"));
             var settings=Resources.Load<GoogleSignInNativeSettingsSO>("GoogleSignInNativeSettings");
-            if(!settings)throw new InvalidOperationException("Google sign-in settings asset missing.");
-            settings.webClientId=web;EditorUtility.SetDirty(settings);
-            File.WriteAllText(marker,"Firebase configuration present. This is not proof of successful sign-in.");
-            AssetDatabase.ImportAsset(marker);AssetDatabase.SaveAssets();
+            if (settings && settings.webClientId != web)
+            {
+                settings.webClientId = web;
+                EditorUtility.SetDirty(settings);
+                AssetDatabase.SaveAssets();
+            }
+            if (!File.Exists(marker))
+            {
+                File.WriteAllText(marker, "Firebase Android configuration present.");
+                AssetDatabase.ImportAsset(marker);
+            }
+            if (!settings || string.IsNullOrWhiteSpace(web))
+                Debug.Log("ECCLESIA: Firebase configured for Analytics. Google sign-in requires a Web OAuth client and sign-in settings.");
+        }
+        private static string ReadWebClientId(string configText)
+        {
+            var config = JsonUtility.FromJson<Config>(configText);
+            var client = config?.client?.FirstOrDefault(c => c?.client_info?.android_client_info?.package_name == PackageName);
+            if (string.IsNullOrWhiteSpace(client?.client_info?.mobilesdk_app_id))
+                throw new BuildFailedException($"google-services.json must contain the Firebase Android app ID for {PackageName}.");
+
+            return client.oauth_client?.FirstOrDefault(c => c?.client_type == 3)?.client_id ?? "";
         }
         [MenuItem("Ecclesia/3. Open Prototype")]
         public static void Open(){Prepare();if(EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())EditorSceneManager.OpenScene(ScenePath);}

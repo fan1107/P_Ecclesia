@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f91abee9ce0e045faa6ed6e334ed6d55, type: 3}
   m_Name: GoogleSignInNativeSettings
   m_EditorClassIdentifier: Assembly-CSharp::GoogleSignInNativeSettingsSO
-  webClientId: YOUR_WEB_CLIENT_ID_HERE
+  webClientId: 
   iosClientId: YOUR_IOS_CLIENT_ID_HERE
   iosReversedClientId: YOUR_REVERSED_IOS_CLIENT_ID_HERE

@@ -1,5 +1,4 @@
 using System;
-using Firebase;
 using Firebase.Auth;
 using UnityEngine;
 
@@ -27,12 +26,15 @@ namespace Ecclesia
             {
                 var settings=Resources.Load<GoogleSignInNativeSettingsSO>("GoogleSignInNativeSettings");
                 if(!settings || string.IsNullOrWhiteSpace(settings.webClientId) || settings.webClientId.Contains("YOUR_"))
-                    throw new InvalidOperationException("Google Web Client ID 설정이 필요합니다.");
+                {
+                    Status="Google 로그인 설정 전 · 오프라인 둘러보기를 이용할 수 있습니다.";
+                    Changed?.Invoke();
+                    return;
+                }
                 Busy=true;Status="로그인 준비 중…";Changed?.Invoke();
-                var dependency=await FirebaseApp.CheckAndFixDependenciesAsync();
+                var app = await FirebaseStartup.GetAppAsync();
                 if(!alive)return;
-                if(dependency!=DependencyStatus.Available)throw new InvalidOperationException("Google Play 서비스와 Firebase 의존성을 확인해주세요.");
-                auth=FirebaseAuth.DefaultInstance;
+                auth=FirebaseAuth.GetAuth(app);
                 GoogleSignInManager.OnSignInSuccess+=OnGoogleSuccess;
                 GoogleSignInManager.OnSignInError+=OnGoogleError;
                 google=new GameObject("GoogleSignInManager").AddComponent<GoogleSignInManager>();

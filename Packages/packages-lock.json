@@ -117,7 +117,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.31",
+      "version": "1.8.30",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -134,7 +134,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collections": {
-      "version": "2.7.1",
+      "version": "2.6.8",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -251,7 +251,7 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "17.3.0",
-        "com.unity.searcher": "4.9.5"
+        "com.unity.searcher": "4.9.3"
       }
     },
     "com.unity.test-framework": {
